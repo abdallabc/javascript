@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let age = 27;
+         switch(age){
+            case 17:
+                console.log("You are 17");
+                break;
+                case 18:
+                    console.log("You are 18 yrs");
+                    default:
+                        console.log("You are neither 17 nor 18");
+         }
+    </script> -->
+    <script>
+        let amount = parseInt(prompt("Enter the Amount to Purchase"));
+
+        if (amount>=10000){
+            discount =("15%");
+            newamount = amount * (85/100);
+        }
+        else if (amount>= 5000 && amount<=9999){
+            discount = ("10%");
+            newamount = amount * (90/100);
+        }
+        else if (amount>=3000 && amount <=4999){
+            discount = ("5%");
+            newamount = amount * (95/100);
+        }
+        else if (amount<=2999 && amount>0){
+            discount = ("0% or No Discount");
+        }
+        else {
+            discount = ("ERROR");
+        }
+
+        
+        alert("Discount: " + discount + "\n" + "Your New Amount is "+ newamount);
+
+    </script>
+</body>
+</html>

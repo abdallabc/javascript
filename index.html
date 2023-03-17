@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let score = parseInt(prompt("Please Enter Your Score"));
+       
+       if(score>=70&& score<=100){
+        grade= "A"
+       }
+       else if(score>=60&& score<=69){
+        grade= "B"
+       }
+       else if(score>=50 && score<=59){
+        grade= "C"
+       }
+       else if(score>=40&& score<=49){
+        grade= "D"
+       }
+       else if (score >=0 && score <=39) {
+        grade= "E"
+       }
+
+        alert("Your grade is "+ grade);
+    </script>
+    <!-- <script>
+        let Firstname= prompt("Please Enter Your Firstname");
+        let Lastname =prompt ("Please Enter Your Lastname");
+        let Fullname =Firstname +" "+ Lastname;
+
+        alert("Your Fullname is "+ Fullname);
+    </script> -->
+    <script>
+        let fit = parseInt (prompt("Please Enter Your Fumdermental IT marks"));
+        let rwd = parseInt(prompt("Please Enter Your Responsive Web Design marks"));
+        let git = parseInt (prompt("Please Enter Your Git Hub marks"));
+        let marks = (fit + rwd + git) / 3;
+        
+       if(marks>=70&& marks<=100){
+        grade= "A"
+       }
+       else if(marks>=60&& marks<=69){
+        grade= "B"
+       }
+       else if(marks>=50 && marks<=59){
+        grade= "C"
+       }
+       else if(marks>=40&& marks<=49){
+        grade= "D"
+       }
+       else if (marks >=0 && marks <=39) {
+        grade= "E"
+       }
+
+        alert("Your grade is "+ grade);
+    </script>
+</body>
+</html>
