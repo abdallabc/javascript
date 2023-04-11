@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+         //anonimous function
+        let AddNumbers = function(){
+            let num1=10;
+            let num2=12;
+            let answer=num1 + num2;
+
+            console.log(answer);
+        }
+        AddNumbers();
+    </script>
+    
+    <script>
+        //arrow funtions
+        AddNumbers=(num1,num2)=>{
+            let answer= num1 + num2;
+            console.log(answer);
+        }
+        AddNumbers(10,20);
+    
+        let checkage=age=>age;
+        console.log(checkage(25));
+    </script>
+</body>
+</html>

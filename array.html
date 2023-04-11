@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        MyArrays2=[15,20,12,11,55];
+         MyArrays2.push(45);
+         console.log(MyArrays2);
+    </script>
+    <script>
+        MyArrays2=[15,20,12,11,55];
+        
+        //for loop
+        for(let i=0; i<=MyArrays2.length; i++){
+            console.log(MyArrays2[i]);
+        }
+
+
+        //foreach loop using arrow function
+        MyArrays2.forEach(element => {
+            console.log(element);
+        });
+
+        if( MyArrays2%5==0){
+            console.log(MyArrays2);
+        }
+
+        for(let i=0; i<=MyArrays2.length; i++){
+            if (i%5==0){
+            console.log(MyArrays2[i]);
+        }
+    }
+    </script>
+</body>
+</html>

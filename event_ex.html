@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="square" style="text-align: center; margin-top: 150px; padding: 200px; background-color: brown;">BROWN</div>
+
+    <script>
+        document.getElementById("square").onmouseover = function(){
+            document.getElementById("square").style.backgroundColor="green";
+            document.getElementById("square").textContent="GREEN";
+        }
+        document.getElementById("square").onmouseout = function(){
+            document.getElementById("square").style.backgroundColor="brown";
+            document.getElementById("square").textContent="BROWN";
+
+        }
+
+    </script>
+</body>
+</html>
